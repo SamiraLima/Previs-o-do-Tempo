@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet');
+body{
+    background: linear-gradient(45deg, #ecebeb, #cecdcd, #d4d4d4);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 0;
+    height: 100vh;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: 'Bricolage+Grotesque';
+}
+

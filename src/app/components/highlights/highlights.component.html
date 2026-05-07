@@ -1,0 +1,29 @@
+<div class="highlights">
+
+    <h2>Condição climática</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <p>Vento</p>
+            <h3>{{weather?.wind?.speed}} km/h</h3>
+        </div>
+
+         <div class="card">
+            <p>Humidade</p>
+            <h3>{{ weather?.main?.humidity }}%</h3>
+        </div>
+
+         <div class="card">
+            <p>Visibilidade</p>
+            <h3>{{ (weather?.visibility / 1000) | number:'1.0-1' }} km</h3>
+        </div>
+
+         <div class="card">
+            <p>Pressão</p>
+            <h3>{{ weather?.main?.pressure }} mb</h3>
+        </div>
+
+    </div>
+
+</div>

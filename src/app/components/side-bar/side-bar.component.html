@@ -1,0 +1,41 @@
+
+<div class="sideBar">
+
+    <div class="Busca">
+
+        <input 
+        type="text",
+        placeholder="Busque uma cidade"
+        [(ngModel)]="city"
+        >
+
+        <button (click)="onSearch()">Pesquisar</button>
+
+    </div>
+
+    <div class="weather">
+
+        <img 
+            [src]="'https://openweathermap.org/img/wn/' + weather?.weather?.[0]?.icon + '@4x.png'" 
+            alt="icone do clima"
+        />
+
+        <h1>{{ weather?.main?.temp }}°C</h1>
+        <p>{{ weather?.weather?.[0]?.description }}</p>
+        
+
+    </div>
+
+    <div class="feels_like">
+
+        <p>Sensação Térmica: {{weather.main.feels_like}}</p>
+
+    </div>
+
+    <div class="location">
+
+        <p>{{ weather?.name }}, {{weather.sys.country}}</p>
+
+    </div>
+
+</div>

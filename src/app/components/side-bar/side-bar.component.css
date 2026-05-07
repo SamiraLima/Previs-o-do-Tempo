@@ -1,0 +1,46 @@
+.sideBar{
+
+    background-color: white;
+    height: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px;
+
+    text-align: center;
+    font-size: 16px;
+
+    
+
+}
+
+.Busca input{
+      border-radius: 10px;
+      border: none;
+      outline: none;
+      font-size: 15px;
+}
+ 
+
+.weather img {
+  margin-bottom: -30px;
+  margin-top: -40px;
+}
+
+.location{
+    background-color: rgb(164, 206, 235);
+    border-radius: 10px;
+}
+
+
+button{
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    width: 80px;
+    background-color: rgb(164, 206, 235);
+    font-size: 15px;
+
+}

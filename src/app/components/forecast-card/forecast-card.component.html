@@ -1,0 +1,13 @@
+
+
+<div class="card">
+
+  <p>{{ day?.dt_txt | date:'EEE' }}</p>
+
+  <img 
+    [src]="'https://openweathermap.org/img/wn/' + day?.weather?.[0]?.icon + '.png'"
+  />
+
+  <p>{{ day?.main?.temp | number:'1.0-0' }}°</p>
+
+</div>

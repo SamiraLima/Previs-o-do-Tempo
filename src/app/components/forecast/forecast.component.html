@@ -1,0 +1,14 @@
+<div class="forecast">
+
+    <h2>Semanal</h2>
+
+    <div class="week">
+        <app-forecast-card
+        *ngFor="let day of forecastData"
+        [day]="day"
+        >
+        </app-forecast-card>
+    </div>
+
+</div>
+

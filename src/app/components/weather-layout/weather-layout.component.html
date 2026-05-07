@@ -1,0 +1,24 @@
+
+<main class="layout">
+
+    <aside>
+        <app-side-bar
+         [weather]="weatherData"
+         (search)="buscarCidade($event)">
+        ></app-side-bar>
+    </aside>
+
+    <section>
+        <app-forecast
+            [forecastData]="forecastData">
+        >
+        </app-forecast>
+        
+        <app-highlights 
+            [weather]="weatherData">
+        </app-highlights>
+
+    </section>
+
+
+</main>
