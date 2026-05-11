@@ -9,14 +9,13 @@
 }
 
 .card {
-  background: #ffffff;
+  background: rgba(66, 120, 190, 0.12);
   padding: 10px;
   border-radius: 16px;
+  border: 1px solid rgba(255,255,255,0.12);
   height: 120px;
   text-align: center;
   box-shadow: 0 20px 40px rgba(0,0,0,0.1);
-
-
 }
 
 .card h1 {

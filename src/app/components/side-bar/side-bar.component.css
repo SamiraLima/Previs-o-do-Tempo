@@ -1,7 +1,7 @@
 .sideBar{
 
-    background-color: white;
     height: 100%;
+    border-right: 1px solid rgb(241, 241, 241, 0.12);
 
     display: flex;
     justify-content: space-between;
@@ -11,8 +11,6 @@
     text-align: center;
     font-size: 16px;
 
-    
-
 }
 
 .Busca input{
@@ -20,6 +18,8 @@
       border: none;
       outline: none;
       font-size: 15px;
+      background: none;
+      color: rgb(231, 231, 229);;
 }
  
 
@@ -29,18 +29,20 @@
 }
 
 .location{
-    background-color: rgb(164, 206, 235);
+    background: rgba(66, 120, 190, 0.12);
     border-radius: 10px;
+    border: 1px solid rgba(255,255,255,0.12);
+   
 }
 
 
 button{
     cursor: pointer;
     border-radius: 10px;
-    border: none;
+    border: 1px solid rgba(255,255,255,0.12);
     padding: 5px;
     width: 80px;
-    background-color: rgb(164, 206, 235);
+    background: rgba(66, 120, 190, 0.12);
     font-size: 15px;
-
+    color: rgb(231, 231, 229);
 }
