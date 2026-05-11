@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-# Clima
-
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.24.
-
-## Development server
-
-To start a local development server, run:
-=======
 # 🌦️ Weather App
 
 Aplicação de previsão do tempo desenvolvida com Angular consumindo a API da OpenWeatherMap.
@@ -257,4 +248,3 @@ Durante o desenvolvimento deste projeto foram praticados conceitos importantes d
 # 👩‍💻 Desenvolvido por
 
 Samira Santos
->>>>>>> d26eab0ecfbda64143b0918af065c37cddd7b158
